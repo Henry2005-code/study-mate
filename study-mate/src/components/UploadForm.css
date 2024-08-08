@@ -1,0 +1,100 @@
+.upload-form-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f7f7f7;
+  }
+  
+  .upload-form-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .upload-form-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .dropzone {
+    padding: 20px;
+    border: 2px dashed #cccccc;
+    border-radius: 8px;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .select-file-button, .upload-button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .file-info {
+    margin: 10px 0;
+    font-size: 14px;
+  }
+  
+  .file-status-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .file-status-table th, .file-status-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .file-status-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .file-status.pending {
+    color: orange;
+  }
+  
+  .file-status.success {
+    color: green;
+  }
+  
+  .file-status.error {
+    color: red;
+  }
+  
+  .loading {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .progress-bar {
+    height: 10px;
+    background-color: #007bff;
+    border-radius: 5px;
+  }
+  
+  .response {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 4px;
+  }
+  
+  .response.success {
+    background-color: #d4edda;
+    color: #155724;
+  }
+  
+  .response.error {
+    background-color: #f8d7da;
+    color: #721c24;
+  }
+  
